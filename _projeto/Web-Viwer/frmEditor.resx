@@ -120,19 +120,4 @@
   <metadata name="menuSuperior.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
   </metadata>
-  <metadata name="barraFerramentas.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>170, 17</value>
-  </metadata>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="barraAbrir.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAFUAAABFCAYAAAA7I6rBAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAEjSURBVHhe7dzBbcJgEAVhCohEB64hJaQ2KkkJtMEtJeQS
-        iQq4kl0km4sPBnmk3V8z0mvgK+Adoin2WWAfsWH6jt0L7BI7xoaoCmpuGNhKqLkhYKuh5trDVkTNtYat
-        ipprC1sZNdcStjpqrh1sB9TcX+ynwU6xNqhdlp6i7jxRgYkKTFRgogITFdgm1Fvs7Jalx5rTvE2ovzF7
-        lh5rTvNEfSNRgUQFEhVIVCBRgUQFEhVIVCBRgUQFEhVIVCBRgUQFEhVIVCBRgUQFEhVIVCBRgUQFEhVI
-        VCBRgUQFEhVIVCBRgUQFEhVIVCBRgUQFEhVIVCBRgUQFEhVoF9Rr7MstS481p3mbUN1rExWYqMBEBSYq
-        MFGBiQpMVGAP1Cqf1IPsMP0Df4yUDTKkSlkAAAAASUVORK5CYII=
-</value>
-  </data>
 </root>
