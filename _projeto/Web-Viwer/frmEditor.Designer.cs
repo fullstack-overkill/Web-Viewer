@@ -67,20 +67,24 @@
             this.atalhosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sobreToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripContainer1 = new System.Windows.Forms.ToolStripContainer();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.tabAbas = new System.Windows.Forms.TabControl();
             this.tabEditor = new System.Windows.Forms.TabPage();
             this.tabNavegador = new System.Windows.Forms.TabPage();
             this.webNavegador = new System.Windows.Forms.WebBrowser();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.esconderBarraLateralToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuSuperior.SuspendLayout();
             this.toolStripContainer1.ContentPanel.SuspendLayout();
             this.toolStripContainer1.SuspendLayout();
+            this.tableLayoutPanel1.SuspendLayout();
             this.tabAbas.SuspendLayout();
             this.tabNavegador.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuSuperior
             // 
-            this.menuSuperior.BackColor = System.Drawing.SystemColors.ControlDark;
+            this.menuSuperior.BackColor = System.Drawing.Color.Gray;
             this.menuSuperior.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuSuperior.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.arquivoToolStripMenuItem,
@@ -121,88 +125,88 @@
             // novoArquivoToolStripMenuItem
             // 
             this.novoArquivoToolStripMenuItem.Name = "novoArquivoToolStripMenuItem";
-            this.novoArquivoToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.novoArquivoToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.novoArquivoToolStripMenuItem.Text = "Novo Arquivo";
             // 
             // novaJanelaToolStripMenuItem
             // 
             this.novaJanelaToolStripMenuItem.Name = "novaJanelaToolStripMenuItem";
-            this.novaJanelaToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.novaJanelaToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.novaJanelaToolStripMenuItem.Text = "Nova Janela";
             // 
             // novoModeloToolStripMenuItem
             // 
             this.novoModeloToolStripMenuItem.Name = "novoModeloToolStripMenuItem";
-            this.novoModeloToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.novoModeloToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.novoModeloToolStripMenuItem.Text = "Novo Modelo";
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(213, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(177, 6);
             // 
             // abrirArquivoToolStripMenuItem
             // 
             this.abrirArquivoToolStripMenuItem.Name = "abrirArquivoToolStripMenuItem";
-            this.abrirArquivoToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.abrirArquivoToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.abrirArquivoToolStripMenuItem.Text = "Abrir Arquivo";
             // 
             // abrirPastaToolStripMenuItem
             // 
             this.abrirPastaToolStripMenuItem.Name = "abrirPastaToolStripMenuItem";
-            this.abrirPastaToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.abrirPastaToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.abrirPastaToolStripMenuItem.Text = "Abrir Pasta";
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(213, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(177, 6);
             // 
             // salvarArquivoToolStripMenuItem
             // 
             this.salvarArquivoToolStripMenuItem.Name = "salvarArquivoToolStripMenuItem";
-            this.salvarArquivoToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.salvarArquivoToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.salvarArquivoToolStripMenuItem.Text = "Salvar Arquivo";
             // 
             // salvarComoToolStripMenuItem
             // 
             this.salvarComoToolStripMenuItem.Name = "salvarComoToolStripMenuItem";
-            this.salvarComoToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.salvarComoToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.salvarComoToolStripMenuItem.Text = "Salvar Como";
             // 
             // salvarTudoToolStripMenuItem
             // 
             this.salvarTudoToolStripMenuItem.Name = "salvarTudoToolStripMenuItem";
-            this.salvarTudoToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.salvarTudoToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.salvarTudoToolStripMenuItem.Text = "Salvar Tudo";
             // 
             // autoSaveToolStripMenuItem
             // 
             this.autoSaveToolStripMenuItem.Name = "autoSaveToolStripMenuItem";
-            this.autoSaveToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.autoSaveToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.autoSaveToolStripMenuItem.Text = "Auto Save";
             // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(213, 6);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(177, 6);
             // 
             // preferênciasToolStripMenuItem
             // 
             this.preferênciasToolStripMenuItem.Name = "preferênciasToolStripMenuItem";
-            this.preferênciasToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.preferênciasToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.preferênciasToolStripMenuItem.Text = "Preferências";
             // 
             // fecharJanelaToolStripMenuItem
             // 
             this.fecharJanelaToolStripMenuItem.Name = "fecharJanelaToolStripMenuItem";
-            this.fecharJanelaToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.fecharJanelaToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.fecharJanelaToolStripMenuItem.Text = "Fechar Janela";
             // 
             // sairToolStripMenuItem
             // 
             this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
-            this.sairToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.sairToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.sairToolStripMenuItem.Text = "Sair";
             // 
             // editarToolStripMenuItem
@@ -220,30 +224,30 @@
             // desfazerToolStripMenuItem
             // 
             this.desfazerToolStripMenuItem.Name = "desfazerToolStripMenuItem";
-            this.desfazerToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.desfazerToolStripMenuItem.Size = new System.Drawing.Size(142, 26);
             this.desfazerToolStripMenuItem.Text = "Desfazer";
             // 
             // toolStripSeparator4
             // 
             this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(213, 6);
+            this.toolStripSeparator4.Size = new System.Drawing.Size(139, 6);
             // 
             // recortarToolStripMenuItem
             // 
             this.recortarToolStripMenuItem.Name = "recortarToolStripMenuItem";
-            this.recortarToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.recortarToolStripMenuItem.Size = new System.Drawing.Size(142, 26);
             this.recortarToolStripMenuItem.Text = "Recortar";
             // 
             // copiarToolStripMenuItem
             // 
             this.copiarToolStripMenuItem.Name = "copiarToolStripMenuItem";
-            this.copiarToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.copiarToolStripMenuItem.Size = new System.Drawing.Size(142, 26);
             this.copiarToolStripMenuItem.Text = "Copiar";
             // 
             // colarToolStripMenuItem
             // 
             this.colarToolStripMenuItem.Name = "colarToolStripMenuItem";
-            this.colarToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.colarToolStripMenuItem.Size = new System.Drawing.Size(142, 26);
             this.colarToolStripMenuItem.Text = "Colar";
             // 
             // selecionarToolStripMenuItem
@@ -258,13 +262,13 @@
             // selecionarTudoToolStripMenuItem
             // 
             this.selecionarTudoToolStripMenuItem.Name = "selecionarTudoToolStripMenuItem";
-            this.selecionarTudoToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.selecionarTudoToolStripMenuItem.Size = new System.Drawing.Size(192, 26);
             this.selecionarTudoToolStripMenuItem.Text = "Selecionar tudo ";
             // 
             // limparToolStripMenuItem
             // 
             this.limparToolStripMenuItem.Name = "limparToolStripMenuItem";
-            this.limparToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.limparToolStripMenuItem.Size = new System.Drawing.Size(192, 26);
             this.limparToolStripMenuItem.Text = "Limpar";
             // 
             // encontrarToolStripMenuItem
@@ -281,30 +285,31 @@
             // localizarToolStripMenuItem
             // 
             this.localizarToolStripMenuItem.Name = "localizarToolStripMenuItem";
-            this.localizarToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.localizarToolStripMenuItem.Size = new System.Drawing.Size(146, 26);
             this.localizarToolStripMenuItem.Text = "Localizar";
             // 
             // substituirToolStripMenuItem
             // 
             this.substituirToolStripMenuItem.Name = "substituirToolStripMenuItem";
-            this.substituirToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.substituirToolStripMenuItem.Size = new System.Drawing.Size(146, 26);
             this.substituirToolStripMenuItem.Text = "Substituir";
             // 
             // toolStripSeparator5
             // 
             this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(213, 6);
+            this.toolStripSeparator5.Size = new System.Drawing.Size(143, 6);
             // 
             // irAtéToolStripMenuItem
             // 
             this.irAtéToolStripMenuItem.Name = "irAtéToolStripMenuItem";
-            this.irAtéToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.irAtéToolStripMenuItem.Size = new System.Drawing.Size(146, 26);
             this.irAtéToolStripMenuItem.Text = "Ir Até";
             // 
             // janelaToolStripMenuItem
             // 
             this.janelaToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.salvarEstadoToolStripMenuItem});
+            this.salvarEstadoToolStripMenuItem,
+            this.esconderBarraLateralToolStripMenuItem});
             this.janelaToolStripMenuItem.Name = "janelaToolStripMenuItem";
             this.janelaToolStripMenuItem.Size = new System.Drawing.Size(62, 24);
             this.janelaToolStripMenuItem.Text = "Janela";
@@ -355,9 +360,10 @@
             // 
             // toolStripContainer1.ContentPanel
             // 
-            this.toolStripContainer1.ContentPanel.Controls.Add(this.tabAbas);
+            this.toolStripContainer1.ContentPanel.Controls.Add(this.tableLayoutPanel1);
             this.toolStripContainer1.ContentPanel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.toolStripContainer1.ContentPanel.Size = new System.Drawing.Size(1398, 606);
+            this.toolStripContainer1.ContentPanel.Size = new System.Drawing.Size(1398, 581);
+            this.toolStripContainer1.ContentPanel.Load += new System.EventHandler(this.toolStripContainer1_ContentPanel_Load);
             this.toolStripContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
             // 
             // toolStripContainer1.LeftToolStripPanel
@@ -370,17 +376,37 @@
             this.toolStripContainer1.TabIndex = 2;
             this.toolStripContainer1.Text = "toolStripContainer1";
             // 
+            // toolStripContainer1.TopToolStripPanel
+            // 
+            this.toolStripContainer1.TopToolStripPanel.BackColor = System.Drawing.Color.Gray;
+            // 
+            // tableLayoutPanel1
+            // 
+            this.tableLayoutPanel1.ColumnCount = 2;
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10.72961F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 89.27039F));
+            this.tableLayoutPanel1.Controls.Add(this.tabAbas, 1, 0);
+            this.tableLayoutPanel1.Controls.Add(this.panel1, 0, 0);
+            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            this.tableLayoutPanel1.RowCount = 1;
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(1398, 581);
+            this.tableLayoutPanel1.TabIndex = 1;
+            this.tableLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint_1);
+            // 
             // tabAbas
             // 
             this.tabAbas.Controls.Add(this.tabEditor);
             this.tabAbas.Controls.Add(this.tabNavegador);
             this.tabAbas.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tabAbas.Font = new System.Drawing.Font("Century Gothic", 7.8F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tabAbas.Location = new System.Drawing.Point(0, 0);
+            this.tabAbas.Location = new System.Drawing.Point(152, 2);
             this.tabAbas.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabAbas.Name = "tabAbas";
             this.tabAbas.SelectedIndex = 0;
-            this.tabAbas.Size = new System.Drawing.Size(1398, 606);
+            this.tabAbas.Size = new System.Drawing.Size(1243, 577);
             this.tabAbas.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             this.tabAbas.TabIndex = 0;
             // 
@@ -391,9 +417,10 @@
             this.tabEditor.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabEditor.Name = "tabEditor";
             this.tabEditor.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.tabEditor.Size = new System.Drawing.Size(1390, 577);
+            this.tabEditor.Size = new System.Drawing.Size(1235, 548);
             this.tabEditor.TabIndex = 0;
             this.tabEditor.Text = "EDITOR";
+            this.tabEditor.Click += new System.EventHandler(this.tabEditor_Click);
             // 
             // tabNavegador
             // 
@@ -403,7 +430,7 @@
             this.tabNavegador.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabNavegador.Name = "tabNavegador";
             this.tabNavegador.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.tabNavegador.Size = new System.Drawing.Size(1365, 577);
+            this.tabNavegador.Size = new System.Drawing.Size(1235, 548);
             this.tabNavegador.TabIndex = 1;
             this.tabNavegador.Text = "NAVEGADOR";
             // 
@@ -411,13 +438,29 @@
             // 
             this.webNavegador.Dock = System.Windows.Forms.DockStyle.Fill;
             this.webNavegador.Location = new System.Drawing.Point(3, 2);
-            this.webNavegador.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.webNavegador.Margin = new System.Windows.Forms.Padding(4);
             this.webNavegador.MinimumSize = new System.Drawing.Size(27, 25);
             this.webNavegador.Name = "webNavegador";
             this.webNavegador.ScriptErrorsSuppressed = true;
-            this.webNavegador.Size = new System.Drawing.Size(1359, 573);
+            this.webNavegador.Size = new System.Drawing.Size(1229, 544);
             this.webNavegador.TabIndex = 0;
             this.webNavegador.Url = new System.Uri("http://google.com", System.UriKind.Absolute);
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(49)))));
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(3, 3);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(143, 575);
+            this.panel1.TabIndex = 1;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            // 
+            // esconderBarraLateralToolStripMenuItem
+            // 
+            this.esconderBarraLateralToolStripMenuItem.Name = "esconderBarraLateralToolStripMenuItem";
+            this.esconderBarraLateralToolStripMenuItem.Size = new System.Drawing.Size(229, 26);
+            this.esconderBarraLateralToolStripMenuItem.Text = "Esconder Barra lateral";
             // 
             // frmEditor
             // 
@@ -436,6 +479,7 @@
             this.toolStripContainer1.ContentPanel.ResumeLayout(false);
             this.toolStripContainer1.ResumeLayout(false);
             this.toolStripContainer1.PerformLayout();
+            this.tableLayoutPanel1.ResumeLayout(false);
             this.tabAbas.ResumeLayout(false);
             this.tabNavegador.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -488,6 +532,9 @@
         private System.Windows.Forms.TabPage tabEditor;
         private System.Windows.Forms.TabPage tabNavegador;
         private System.Windows.Forms.WebBrowser webNavegador;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.ToolStripMenuItem esconderBarraLateralToolStripMenuItem;
     }
 }
 

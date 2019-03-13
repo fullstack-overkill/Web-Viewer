@@ -16,5 +16,30 @@ namespace Web_Viwer
         {
             InitializeComponent();
         }
+
+        private void tabEditor_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void toolStripContainer1_ContentPanel_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void tableLayoutPanel1_Paint_1(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
