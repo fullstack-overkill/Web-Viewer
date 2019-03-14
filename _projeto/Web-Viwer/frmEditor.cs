@@ -41,5 +41,18 @@ namespace Web_Viwer
         {
 
         }
+
+        private void sobreToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmSobre frmSobre = new frmSobre();
+                if (!(Application.OpenForms.OfType<frmSobre>().Count() > 0))
+                {
+                    frmSobre.Show();
+                }
+                else
+                {
+                     Application.OpenForms[frmSobre.Name].Focus();
+                }
+        }
     }
 }

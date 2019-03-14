@@ -14,7 +14,7 @@ namespace Web_Viwer
     {
         public frmSobre()
         {
-            InitializeComponent();
+            
         }
 
         private void frmhelp_Load(object sender, EventArgs e)

@@ -61,6 +61,7 @@
             this.irAtéToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.janelaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.salvarEstadoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.esconderBarraLateralToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ajudaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.bemVindoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.passoAPassoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -70,21 +71,22 @@
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.tabAbas = new System.Windows.Forms.TabControl();
             this.tabEditor = new System.Windows.Forms.TabPage();
+            this.numberedRTB1 = new AboControls.UserControls.NumberedRTB();
             this.tabNavegador = new System.Windows.Forms.TabPage();
             this.webNavegador = new System.Windows.Forms.WebBrowser();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.esconderBarraLateralToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuSuperior.SuspendLayout();
             this.toolStripContainer1.ContentPanel.SuspendLayout();
             this.toolStripContainer1.SuspendLayout();
             this.tableLayoutPanel1.SuspendLayout();
             this.tabAbas.SuspendLayout();
+            this.tabEditor.SuspendLayout();
             this.tabNavegador.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuSuperior
             // 
-            this.menuSuperior.BackColor = System.Drawing.Color.Gray;
+            this.menuSuperior.BackColor = System.Drawing.Color.DarkGray;
             this.menuSuperior.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuSuperior.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.arquivoToolStripMenuItem,
@@ -317,8 +319,14 @@
             // salvarEstadoToolStripMenuItem
             // 
             this.salvarEstadoToolStripMenuItem.Name = "salvarEstadoToolStripMenuItem";
-            this.salvarEstadoToolStripMenuItem.Size = new System.Drawing.Size(173, 26);
+            this.salvarEstadoToolStripMenuItem.Size = new System.Drawing.Size(229, 26);
             this.salvarEstadoToolStripMenuItem.Text = "Salvar Estado";
+            // 
+            // esconderBarraLateralToolStripMenuItem
+            // 
+            this.esconderBarraLateralToolStripMenuItem.Name = "esconderBarraLateralToolStripMenuItem";
+            this.esconderBarraLateralToolStripMenuItem.Size = new System.Drawing.Size(229, 26);
+            this.esconderBarraLateralToolStripMenuItem.Text = "Esconder Barra lateral";
             // 
             // ajudaToolStripMenuItem
             // 
@@ -334,26 +342,27 @@
             // bemVindoToolStripMenuItem
             // 
             this.bemVindoToolStripMenuItem.Name = "bemVindoToolStripMenuItem";
-            this.bemVindoToolStripMenuItem.Size = new System.Drawing.Size(172, 26);
+            this.bemVindoToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
             this.bemVindoToolStripMenuItem.Text = "Bem Vindo";
             // 
             // passoAPassoToolStripMenuItem
             // 
             this.passoAPassoToolStripMenuItem.Name = "passoAPassoToolStripMenuItem";
-            this.passoAPassoToolStripMenuItem.Size = new System.Drawing.Size(172, 26);
+            this.passoAPassoToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
             this.passoAPassoToolStripMenuItem.Text = "Passo a Passo";
             // 
             // atalhosToolStripMenuItem
             // 
             this.atalhosToolStripMenuItem.Name = "atalhosToolStripMenuItem";
-            this.atalhosToolStripMenuItem.Size = new System.Drawing.Size(172, 26);
+            this.atalhosToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
             this.atalhosToolStripMenuItem.Text = "Atalhos";
             // 
             // sobreToolStripMenuItem
             // 
             this.sobreToolStripMenuItem.Name = "sobreToolStripMenuItem";
-            this.sobreToolStripMenuItem.Size = new System.Drawing.Size(172, 26);
+            this.sobreToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
             this.sobreToolStripMenuItem.Text = "Sobre";
+            this.sobreToolStripMenuItem.Click += new System.EventHandler(this.sobreToolStripMenuItem_Click);
             // 
             // toolStripContainer1
             // 
@@ -413,6 +422,7 @@
             // tabEditor
             // 
             this.tabEditor.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(49)))));
+            this.tabEditor.Controls.Add(this.numberedRTB1);
             this.tabEditor.Location = new System.Drawing.Point(4, 25);
             this.tabEditor.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.tabEditor.Name = "tabEditor";
@@ -421,6 +431,17 @@
             this.tabEditor.TabIndex = 0;
             this.tabEditor.Text = "EDITOR";
             this.tabEditor.Click += new System.EventHandler(this.tabEditor_Click);
+            // 
+            // numberedRTB1
+            // 
+            this.numberedRTB1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(39)))), ((int)(((byte)(49)))));
+            this.numberedRTB1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.numberedRTB1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.numberedRTB1.Location = new System.Drawing.Point(3, 2);
+            this.numberedRTB1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.numberedRTB1.Name = "numberedRTB1";
+            this.numberedRTB1.Size = new System.Drawing.Size(1229, 544);
+            this.numberedRTB1.TabIndex = 0;
             // 
             // tabNavegador
             // 
@@ -456,12 +477,6 @@
             this.panel1.TabIndex = 1;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
-            // esconderBarraLateralToolStripMenuItem
-            // 
-            this.esconderBarraLateralToolStripMenuItem.Name = "esconderBarraLateralToolStripMenuItem";
-            this.esconderBarraLateralToolStripMenuItem.Size = new System.Drawing.Size(229, 26);
-            this.esconderBarraLateralToolStripMenuItem.Text = "Esconder Barra lateral";
-            // 
             // frmEditor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -481,6 +496,7 @@
             this.toolStripContainer1.PerformLayout();
             this.tableLayoutPanel1.ResumeLayout(false);
             this.tabAbas.ResumeLayout(false);
+            this.tabEditor.ResumeLayout(false);
             this.tabNavegador.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -535,6 +551,7 @@
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.ToolStripMenuItem esconderBarraLateralToolStripMenuItem;
+        private AboControls.UserControls.NumberedRTB numberedRTB1;
     }
 }
 
