@@ -45,12 +45,20 @@ namespace Web_Viwer
         private void btnVisualizarCodigo_Click(object sender, EventArgs e)
         {
             webVisualizar.DocumentText = txtEditor.RichTextBox.Text;
-            webVisualizar.Focus();
+            this.tabAbas.SelectedTab = tabWEB;
         }
 
         private void btnLimpar_Click(object sender, EventArgs e)
         {
             txtEditor.RichTextBox.Text = " ";
         }
+
+        private void btnDividirEditorEmDois_Click(object sender, EventArgs e)
+        {
+            
+
+        }
+
+
     }
 }

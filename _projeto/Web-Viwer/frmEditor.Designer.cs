@@ -75,13 +75,14 @@
             this.ContentPanel = new System.Windows.Forms.ToolStripContentPanel();
             this.layoutfrm = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnLimpar = new System.Windows.Forms.Button();
-            this.btnVisualizarCodigo = new System.Windows.Forms.Button();
             this.tabAbas = new System.Windows.Forms.TabControl();
             this.tabEditor = new System.Windows.Forms.TabPage();
             this.txtEditor = new AboControls.UserControls.NumberedRTB();
             this.tabWEB = new System.Windows.Forms.TabPage();
             this.webVisualizar = new System.Windows.Forms.WebBrowser();
+            this.btnDividirEditorEmDois = new System.Windows.Forms.Button();
+            this.btnLimpar = new System.Windows.Forms.Button();
+            this.btnVisualizarCodigo = new System.Windows.Forms.Button();
             this.toolStripContainer1 = new System.Windows.Forms.ToolStripContainer();
             this.menuSuperior.SuspendLayout();
             this.layoutfrm.SuspendLayout();
@@ -420,12 +421,11 @@
             // layoutfrm
             // 
             this.layoutfrm.BackColor = System.Drawing.Color.White;
-            this.layoutfrm.ColumnCount = 3;
+            this.layoutfrm.ColumnCount = 2;
             this.layoutfrm.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10.72961F));
             this.layoutfrm.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 89.27039F));
-            this.layoutfrm.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 82F));
-            this.layoutfrm.Controls.Add(this.panel1, 0, 0);
             this.layoutfrm.Controls.Add(this.tabAbas, 1, 0);
+            this.layoutfrm.Controls.Add(this.panel1, 0, 0);
             this.layoutfrm.Dock = System.Windows.Forms.DockStyle.Fill;
             this.layoutfrm.Location = new System.Drawing.Point(0, 0);
             this.layoutfrm.Name = "layoutfrm";
@@ -437,47 +437,24 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.btnDividirEditorEmDois);
             this.panel1.Controls.Add(this.btnLimpar);
             this.panel1.Controls.Add(this.btnVisualizarCodigo);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(3, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(135, 575);
+            this.panel1.Size = new System.Drawing.Size(143, 575);
             this.panel1.TabIndex = 1;
-            // 
-            // btnLimpar
-            // 
-            this.btnLimpar.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnLimpar.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLimpar.Location = new System.Drawing.Point(0, 38);
-            this.btnLimpar.Name = "btnLimpar";
-            this.btnLimpar.Size = new System.Drawing.Size(135, 38);
-            this.btnLimpar.TabIndex = 1;
-            this.btnLimpar.Text = "Limpar";
-            this.btnLimpar.UseVisualStyleBackColor = true;
-            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
-            // 
-            // btnVisualizarCodigo
-            // 
-            this.btnVisualizarCodigo.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnVisualizarCodigo.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVisualizarCodigo.Location = new System.Drawing.Point(0, 0);
-            this.btnVisualizarCodigo.Name = "btnVisualizarCodigo";
-            this.btnVisualizarCodigo.Size = new System.Drawing.Size(135, 38);
-            this.btnVisualizarCodigo.TabIndex = 0;
-            this.btnVisualizarCodigo.Text = "Visualizar";
-            this.btnVisualizarCodigo.UseVisualStyleBackColor = true;
-            this.btnVisualizarCodigo.Click += new System.EventHandler(this.btnVisualizarCodigo_Click);
             // 
             // tabAbas
             // 
             this.tabAbas.Controls.Add(this.tabEditor);
             this.tabAbas.Controls.Add(this.tabWEB);
             this.tabAbas.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabAbas.Location = new System.Drawing.Point(144, 3);
+            this.tabAbas.Location = new System.Drawing.Point(152, 3);
             this.tabAbas.Name = "tabAbas";
             this.tabAbas.SelectedIndex = 0;
-            this.tabAbas.Size = new System.Drawing.Size(1168, 575);
+            this.tabAbas.Size = new System.Drawing.Size(1243, 575);
             this.tabAbas.TabIndex = 0;
             // 
             // tabEditor
@@ -488,7 +465,7 @@
             this.tabEditor.Location = new System.Drawing.Point(4, 25);
             this.tabEditor.Name = "tabEditor";
             this.tabEditor.Padding = new System.Windows.Forms.Padding(3);
-            this.tabEditor.Size = new System.Drawing.Size(1160, 546);
+            this.tabEditor.Size = new System.Drawing.Size(1235, 546);
             this.tabEditor.TabIndex = 0;
             this.tabEditor.Text = "EDITOR";
             this.tabEditor.UseVisualStyleBackColor = true;
@@ -501,7 +478,7 @@
             this.txtEditor.Location = new System.Drawing.Point(3, 3);
             this.txtEditor.Margin = new System.Windows.Forms.Padding(6);
             this.txtEditor.Name = "txtEditor";
-            this.txtEditor.Size = new System.Drawing.Size(1154, 540);
+            this.txtEditor.Size = new System.Drawing.Size(1229, 540);
             this.txtEditor.TabIndex = 0;
             // 
             // tabWEB
@@ -510,7 +487,7 @@
             this.tabWEB.Location = new System.Drawing.Point(4, 25);
             this.tabWEB.Name = "tabWEB";
             this.tabWEB.Padding = new System.Windows.Forms.Padding(3);
-            this.tabWEB.Size = new System.Drawing.Size(1161, 546);
+            this.tabWEB.Size = new System.Drawing.Size(941, 371);
             this.tabWEB.TabIndex = 1;
             this.tabWEB.Text = "VISUALIZAR";
             this.tabWEB.UseVisualStyleBackColor = true;
@@ -521,9 +498,45 @@
             this.webVisualizar.Location = new System.Drawing.Point(3, 3);
             this.webVisualizar.MinimumSize = new System.Drawing.Size(20, 20);
             this.webVisualizar.Name = "webVisualizar";
-            this.webVisualizar.Size = new System.Drawing.Size(1155, 540);
+            this.webVisualizar.Size = new System.Drawing.Size(935, 365);
             this.webVisualizar.TabIndex = 0;
             this.webVisualizar.Url = new System.Uri("", System.UriKind.Relative);
+            // 
+            // btnDividirEditorEmDois
+            // 
+            this.btnDividirEditorEmDois.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnDividirEditorEmDois.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDividirEditorEmDois.Location = new System.Drawing.Point(0, 76);
+            this.btnDividirEditorEmDois.Name = "btnDividirEditorEmDois";
+            this.btnDividirEditorEmDois.Size = new System.Drawing.Size(143, 38);
+            this.btnDividirEditorEmDois.TabIndex = 2;
+            this.btnDividirEditorEmDois.Text = "Dividir Tela";
+            this.btnDividirEditorEmDois.UseVisualStyleBackColor = true;
+            this.btnDividirEditorEmDois.Click += new System.EventHandler(this.btnDividirEditorEmDois_Click);
+            // 
+            // btnLimpar
+            // 
+            this.btnLimpar.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnLimpar.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLimpar.Location = new System.Drawing.Point(0, 38);
+            this.btnLimpar.Name = "btnLimpar";
+            this.btnLimpar.Size = new System.Drawing.Size(143, 38);
+            this.btnLimpar.TabIndex = 1;
+            this.btnLimpar.Text = "Limpar";
+            this.btnLimpar.UseVisualStyleBackColor = true;
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
+            // 
+            // btnVisualizarCodigo
+            // 
+            this.btnVisualizarCodigo.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnVisualizarCodigo.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVisualizarCodigo.Location = new System.Drawing.Point(0, 0);
+            this.btnVisualizarCodigo.Name = "btnVisualizarCodigo";
+            this.btnVisualizarCodigo.Size = new System.Drawing.Size(143, 38);
+            this.btnVisualizarCodigo.TabIndex = 0;
+            this.btnVisualizarCodigo.Text = "Visualizar";
+            this.btnVisualizarCodigo.UseVisualStyleBackColor = true;
+            this.btnVisualizarCodigo.Click += new System.EventHandler(this.btnVisualizarCodigo_Click);
             // 
             // toolStripContainer1
             // 
@@ -548,7 +561,7 @@
             // 
             // toolStripContainer1.TopToolStripPanel
             // 
-            this.toolStripContainer1.TopToolStripPanel.BackColor = System.Drawing.Color.Gray;
+            this.toolStripContainer1.TopToolStripPanel.BackColor = System.Drawing.Color.White;
             // 
             // frmEditor
             // 
@@ -634,6 +647,7 @@
         private AboControls.UserControls.NumberedRTB txtEditor;
         private System.Windows.Forms.TabPage tabWEB;
         private System.Windows.Forms.WebBrowser webVisualizar;
+        private System.Windows.Forms.Button btnDividirEditorEmDois;
     }
 }
 
