@@ -15,19 +15,11 @@ namespace Web_Viwer
         public frmEditor()
         {
             InitializeComponent();
+            txtEditor.RichTextBox.Text = "Hello World";
+              
         }
-
-        private void tabEditor_Click(object sender, EventArgs e)
-        {
-
-        }
-
+        
         private void toolStripContainer1_ContentPanel_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
         {
 
         }
@@ -37,12 +29,7 @@ namespace Web_Viwer
 
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void sobreToolStripMenuItem_Click(object sender, EventArgs e)
+        private void SobreToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmSobre frmSobre = new frmSobre();
                 if (!(Application.OpenForms.OfType<frmSobre>().Count() > 0))
@@ -53,6 +40,17 @@ namespace Web_Viwer
                 {
                      Application.OpenForms[frmSobre.Name].Focus();
                 }
+        }
+
+        private void btnVisualizarCodigo_Click(object sender, EventArgs e)
+        {
+            webVisualizar.DocumentText = txtEditor.RichTextBox.Text;
+            webVisualizar.Focus();
+        }
+
+        private void btnLimpar_Click(object sender, EventArgs e)
+        {
+            txtEditor.RichTextBox.Text = " ";
         }
     }
 }
