@@ -73,24 +73,24 @@
             this.RightToolStripPanel = new System.Windows.Forms.ToolStripPanel();
             this.LeftToolStripPanel = new System.Windows.Forms.ToolStripPanel();
             this.ContentPanel = new System.Windows.Forms.ToolStripContentPanel();
-            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.layoutfrm = new System.Windows.Forms.TableLayoutPanel();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.btnLimpar = new System.Windows.Forms.Button();
+            this.btnVisualizarCodigo = new System.Windows.Forms.Button();
             this.tabAbas = new System.Windows.Forms.TabControl();
             this.tabEditor = new System.Windows.Forms.TabPage();
             this.txtEditor = new AboControls.UserControls.NumberedRTB();
             this.tabWEB = new System.Windows.Forms.TabPage();
             this.webVisualizar = new System.Windows.Forms.WebBrowser();
             this.toolStripContainer1 = new System.Windows.Forms.ToolStripContainer();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.btnVisualizarCodigo = new System.Windows.Forms.Button();
-            this.btnLimpar = new System.Windows.Forms.Button();
             this.menuSuperior.SuspendLayout();
-            this.tableLayoutPanel1.SuspendLayout();
+            this.layoutfrm.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.tabAbas.SuspendLayout();
             this.tabEditor.SuspendLayout();
             this.tabWEB.SuspendLayout();
             this.toolStripContainer1.ContentPanel.SuspendLayout();
             this.toolStripContainer1.SuspendLayout();
-            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuSuperior
@@ -136,88 +136,88 @@
             // novoArquivoToolStripMenuItem
             // 
             this.novoArquivoToolStripMenuItem.Name = "novoArquivoToolStripMenuItem";
-            this.novoArquivoToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.novoArquivoToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.novoArquivoToolStripMenuItem.Text = "Novo Arquivo";
             // 
             // novaJanelaToolStripMenuItem
             // 
             this.novaJanelaToolStripMenuItem.Name = "novaJanelaToolStripMenuItem";
-            this.novaJanelaToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.novaJanelaToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.novaJanelaToolStripMenuItem.Text = "Nova Janela";
             // 
             // novoModeloToolStripMenuItem
             // 
             this.novoModeloToolStripMenuItem.Name = "novoModeloToolStripMenuItem";
-            this.novoModeloToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.novoModeloToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.novoModeloToolStripMenuItem.Text = "Novo Modelo";
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(213, 6);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(177, 6);
             // 
             // abrirArquivoToolStripMenuItem
             // 
             this.abrirArquivoToolStripMenuItem.Name = "abrirArquivoToolStripMenuItem";
-            this.abrirArquivoToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.abrirArquivoToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.abrirArquivoToolStripMenuItem.Text = "Abrir Arquivo";
             // 
             // abrirPastaToolStripMenuItem
             // 
             this.abrirPastaToolStripMenuItem.Name = "abrirPastaToolStripMenuItem";
-            this.abrirPastaToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.abrirPastaToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.abrirPastaToolStripMenuItem.Text = "Abrir Pasta";
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(213, 6);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(177, 6);
             // 
             // salvarArquivoToolStripMenuItem
             // 
             this.salvarArquivoToolStripMenuItem.Name = "salvarArquivoToolStripMenuItem";
-            this.salvarArquivoToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.salvarArquivoToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.salvarArquivoToolStripMenuItem.Text = "Salvar Arquivo";
             // 
             // salvarComoToolStripMenuItem
             // 
             this.salvarComoToolStripMenuItem.Name = "salvarComoToolStripMenuItem";
-            this.salvarComoToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.salvarComoToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.salvarComoToolStripMenuItem.Text = "Salvar Como";
             // 
             // salvarTudoToolStripMenuItem
             // 
             this.salvarTudoToolStripMenuItem.Name = "salvarTudoToolStripMenuItem";
-            this.salvarTudoToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.salvarTudoToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.salvarTudoToolStripMenuItem.Text = "Salvar Tudo";
             // 
             // autoSaveToolStripMenuItem
             // 
             this.autoSaveToolStripMenuItem.Name = "autoSaveToolStripMenuItem";
-            this.autoSaveToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.autoSaveToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.autoSaveToolStripMenuItem.Text = "Auto Save";
             // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(213, 6);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(177, 6);
             // 
             // preferênciasToolStripMenuItem
             // 
             this.preferênciasToolStripMenuItem.Name = "preferênciasToolStripMenuItem";
-            this.preferênciasToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.preferênciasToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.preferênciasToolStripMenuItem.Text = "Preferências";
             // 
             // fecharJanelaToolStripMenuItem
             // 
             this.fecharJanelaToolStripMenuItem.Name = "fecharJanelaToolStripMenuItem";
-            this.fecharJanelaToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.fecharJanelaToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.fecharJanelaToolStripMenuItem.Text = "Fechar Janela";
             // 
             // sairToolStripMenuItem
             // 
             this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
-            this.sairToolStripMenuItem.Size = new System.Drawing.Size(216, 26);
+            this.sairToolStripMenuItem.Size = new System.Drawing.Size(180, 26);
             this.sairToolStripMenuItem.Text = "Sair";
             // 
             // editarToolStripMenuItem
@@ -417,32 +417,67 @@
             this.ContentPanel.Size = new System.Drawing.Size(1398, 606);
             this.ContentPanel.Load += new System.EventHandler(this.toolStripContainer1_ContentPanel_Load);
             // 
-            // tableLayoutPanel1
+            // layoutfrm
             // 
-            this.tableLayoutPanel1.BackColor = System.Drawing.Color.White;
-            this.tableLayoutPanel1.ColumnCount = 2;
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10.72961F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 89.27039F));
-            this.tableLayoutPanel1.Controls.Add(this.tabAbas, 1, 0);
-            this.tableLayoutPanel1.Controls.Add(this.panel1, 0, 0);
-            this.tableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
-            this.tableLayoutPanel1.RowCount = 1;
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(1398, 581);
-            this.tableLayoutPanel1.TabIndex = 1;
-            this.tableLayoutPanel1.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint_1);
+            this.layoutfrm.BackColor = System.Drawing.Color.White;
+            this.layoutfrm.ColumnCount = 3;
+            this.layoutfrm.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 10.72961F));
+            this.layoutfrm.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 89.27039F));
+            this.layoutfrm.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 82F));
+            this.layoutfrm.Controls.Add(this.panel1, 0, 0);
+            this.layoutfrm.Controls.Add(this.tabAbas, 1, 0);
+            this.layoutfrm.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.layoutfrm.Location = new System.Drawing.Point(0, 0);
+            this.layoutfrm.Name = "layoutfrm";
+            this.layoutfrm.RowCount = 1;
+            this.layoutfrm.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.layoutfrm.Size = new System.Drawing.Size(1398, 581);
+            this.layoutfrm.TabIndex = 1;
+            this.layoutfrm.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint_1);
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.btnLimpar);
+            this.panel1.Controls.Add(this.btnVisualizarCodigo);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(3, 3);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(135, 575);
+            this.panel1.TabIndex = 1;
+            // 
+            // btnLimpar
+            // 
+            this.btnLimpar.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnLimpar.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLimpar.Location = new System.Drawing.Point(0, 38);
+            this.btnLimpar.Name = "btnLimpar";
+            this.btnLimpar.Size = new System.Drawing.Size(135, 38);
+            this.btnLimpar.TabIndex = 1;
+            this.btnLimpar.Text = "Limpar";
+            this.btnLimpar.UseVisualStyleBackColor = true;
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
+            // 
+            // btnVisualizarCodigo
+            // 
+            this.btnVisualizarCodigo.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnVisualizarCodigo.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVisualizarCodigo.Location = new System.Drawing.Point(0, 0);
+            this.btnVisualizarCodigo.Name = "btnVisualizarCodigo";
+            this.btnVisualizarCodigo.Size = new System.Drawing.Size(135, 38);
+            this.btnVisualizarCodigo.TabIndex = 0;
+            this.btnVisualizarCodigo.Text = "Visualizar";
+            this.btnVisualizarCodigo.UseVisualStyleBackColor = true;
+            this.btnVisualizarCodigo.Click += new System.EventHandler(this.btnVisualizarCodigo_Click);
             // 
             // tabAbas
             // 
             this.tabAbas.Controls.Add(this.tabEditor);
             this.tabAbas.Controls.Add(this.tabWEB);
             this.tabAbas.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tabAbas.Location = new System.Drawing.Point(152, 3);
+            this.tabAbas.Location = new System.Drawing.Point(144, 3);
             this.tabAbas.Name = "tabAbas";
             this.tabAbas.SelectedIndex = 0;
-            this.tabAbas.Size = new System.Drawing.Size(1243, 575);
+            this.tabAbas.Size = new System.Drawing.Size(1168, 575);
             this.tabAbas.TabIndex = 0;
             // 
             // tabEditor
@@ -453,7 +488,7 @@
             this.tabEditor.Location = new System.Drawing.Point(4, 25);
             this.tabEditor.Name = "tabEditor";
             this.tabEditor.Padding = new System.Windows.Forms.Padding(3);
-            this.tabEditor.Size = new System.Drawing.Size(1235, 546);
+            this.tabEditor.Size = new System.Drawing.Size(1160, 546);
             this.tabEditor.TabIndex = 0;
             this.tabEditor.Text = "EDITOR";
             this.tabEditor.UseVisualStyleBackColor = true;
@@ -466,7 +501,7 @@
             this.txtEditor.Location = new System.Drawing.Point(3, 3);
             this.txtEditor.Margin = new System.Windows.Forms.Padding(6);
             this.txtEditor.Name = "txtEditor";
-            this.txtEditor.Size = new System.Drawing.Size(1229, 540);
+            this.txtEditor.Size = new System.Drawing.Size(1154, 540);
             this.txtEditor.TabIndex = 0;
             // 
             // tabWEB
@@ -475,7 +510,7 @@
             this.tabWEB.Location = new System.Drawing.Point(4, 25);
             this.tabWEB.Name = "tabWEB";
             this.tabWEB.Padding = new System.Windows.Forms.Padding(3);
-            this.tabWEB.Size = new System.Drawing.Size(1235, 546);
+            this.tabWEB.Size = new System.Drawing.Size(1161, 546);
             this.tabWEB.TabIndex = 1;
             this.tabWEB.Text = "VISUALIZAR";
             this.tabWEB.UseVisualStyleBackColor = true;
@@ -486,7 +521,7 @@
             this.webVisualizar.Location = new System.Drawing.Point(3, 3);
             this.webVisualizar.MinimumSize = new System.Drawing.Size(20, 20);
             this.webVisualizar.Name = "webVisualizar";
-            this.webVisualizar.Size = new System.Drawing.Size(1229, 540);
+            this.webVisualizar.Size = new System.Drawing.Size(1155, 540);
             this.webVisualizar.TabIndex = 0;
             this.webVisualizar.Url = new System.Uri("", System.UriKind.Relative);
             // 
@@ -495,7 +530,7 @@
             // 
             // toolStripContainer1.ContentPanel
             // 
-            this.toolStripContainer1.ContentPanel.Controls.Add(this.tableLayoutPanel1);
+            this.toolStripContainer1.ContentPanel.Controls.Add(this.layoutfrm);
             this.toolStripContainer1.ContentPanel.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.toolStripContainer1.ContentPanel.Size = new System.Drawing.Size(1398, 581);
             this.toolStripContainer1.ContentPanel.Load += new System.EventHandler(this.toolStripContainer1_ContentPanel_Load);
@@ -515,40 +550,6 @@
             // 
             this.toolStripContainer1.TopToolStripPanel.BackColor = System.Drawing.Color.Gray;
             // 
-            // panel1
-            // 
-            this.panel1.Controls.Add(this.btnLimpar);
-            this.panel1.Controls.Add(this.btnVisualizarCodigo);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(3, 3);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(143, 575);
-            this.panel1.TabIndex = 1;
-            // 
-            // btnVisualizarCodigo
-            // 
-            this.btnVisualizarCodigo.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnVisualizarCodigo.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnVisualizarCodigo.Location = new System.Drawing.Point(0, 0);
-            this.btnVisualizarCodigo.Name = "btnVisualizarCodigo";
-            this.btnVisualizarCodigo.Size = new System.Drawing.Size(143, 38);
-            this.btnVisualizarCodigo.TabIndex = 0;
-            this.btnVisualizarCodigo.Text = "Visualizar";
-            this.btnVisualizarCodigo.UseVisualStyleBackColor = true;
-            this.btnVisualizarCodigo.Click += new System.EventHandler(this.btnVisualizarCodigo_Click);
-            // 
-            // btnLimpar
-            // 
-            this.btnLimpar.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnLimpar.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLimpar.Location = new System.Drawing.Point(0, 38);
-            this.btnLimpar.Name = "btnLimpar";
-            this.btnLimpar.Size = new System.Drawing.Size(143, 38);
-            this.btnLimpar.TabIndex = 1;
-            this.btnLimpar.Text = "Limpar";
-            this.btnLimpar.UseVisualStyleBackColor = true;
-            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
-            // 
             // frmEditor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -563,14 +564,14 @@
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.menuSuperior.ResumeLayout(false);
             this.menuSuperior.PerformLayout();
-            this.tableLayoutPanel1.ResumeLayout(false);
+            this.layoutfrm.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
             this.tabAbas.ResumeLayout(false);
             this.tabEditor.ResumeLayout(false);
             this.tabWEB.ResumeLayout(false);
             this.toolStripContainer1.ContentPanel.ResumeLayout(false);
             this.toolStripContainer1.ResumeLayout(false);
             this.toolStripContainer1.PerformLayout();
-            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -623,16 +624,16 @@
         private System.Windows.Forms.ToolStripPanel RightToolStripPanel;
         private System.Windows.Forms.ToolStripPanel LeftToolStripPanel;
         private System.Windows.Forms.ToolStripContentPanel ContentPanel;
-        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.TableLayoutPanel layoutfrm;
         private System.Windows.Forms.ToolStripContainer toolStripContainer1;
         private System.Windows.Forms.TabControl tabAbas;
-        private System.Windows.Forms.TabPage tabEditor;
-        private System.Windows.Forms.TabPage tabWEB;
-        private AboControls.UserControls.NumberedRTB txtEditor;
-        private System.Windows.Forms.WebBrowser webVisualizar;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Button btnVisualizarCodigo;
         private System.Windows.Forms.Button btnLimpar;
+        private System.Windows.Forms.TabPage tabEditor;
+        private AboControls.UserControls.NumberedRTB txtEditor;
+        private System.Windows.Forms.TabPage tabWEB;
+        private System.Windows.Forms.WebBrowser webVisualizar;
     }
 }
 
