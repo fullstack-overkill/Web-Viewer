@@ -15,7 +15,7 @@ namespace Web_Viwer
         public frmEditor()
         {
             InitializeComponent();
-            txtEditor.RichTextBox.Text = "Hello World";
+            txtEditor.RichTextBox.Text = "Hello World !";
               
         }
         
@@ -51,6 +51,8 @@ namespace Web_Viwer
         private void btnLimpar_Click(object sender, EventArgs e)
         {
             txtEditor.RichTextBox.Text = " ";
+            webVisualizar.DocumentText = txtEditor.RichTextBox.Text;
+
         }
 
         private void btnDividirEditorEmDois_Click(object sender, EventArgs e)
